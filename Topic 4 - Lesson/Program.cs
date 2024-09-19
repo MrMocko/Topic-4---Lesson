@@ -10,13 +10,13 @@ namespace Topic_4___Lesson
         static void Main(string[] args)
         {
             //Andre
-            string userName;
+            string userName, pizzatop, name;
             int age;
             double price;
-            string pizzatop;
-            string name;
-            pizzatop = "BRAK";
-            name = "Jimmy";
+            double di = 6;
+            double  rad;
+            
+            
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine("Enter username");
             userName = Console.ReadLine();
@@ -37,7 +37,12 @@ namespace Topic_4___Lesson
             Thread.Sleep(2000);
             Console.WriteLine("Wait whats your fav topng on pizza again?" );
             pizzatop = Console.ReadLine();
-            Console.WriteLine("NO WAY " + pizzatop + " IS MY FAV TOO"); 
+            Console.WriteLine("NO WAY " + pizzatop + " IS MY FAV TOO");
+            Thread.Sleep(1000);
+            Console.WriteLine("Hey man could you give me a random number for the diameter of a circle");
+            Double.TryParse(Console.ReadLine(), out price);
+            double  = Math.PI  * Math.Pow(rad, 2);
+            Console.WriteLine("Wooza man the radious of that circle is pretty cool" + rad);
         }
         
     }
