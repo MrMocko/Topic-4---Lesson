@@ -22,7 +22,7 @@ namespace Topic_4___Lesson
             userName = Console.ReadLine();
             Console.Write("Your username is: " + userName);
             Console.WriteLine("");
-            Console.ReadLine();
+            Thread.Sleep(750);
             Console.WriteLine("Enter your age.");
             Console.WriteLine (Int32.TryParse(Console.ReadLine(), out age));
             Console.WriteLine("Your age is " + age);
