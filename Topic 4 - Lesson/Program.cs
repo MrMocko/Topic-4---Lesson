@@ -13,9 +13,8 @@ namespace Topic_4___Lesson
             string userName, pizzatop, name;
             int age;
             double price;
-            double di = 6;
-            double  rad;
-            
+            double di;
+            double rad;
             
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine("Enter username");
@@ -35,14 +34,14 @@ namespace Topic_4___Lesson
             name = Console.ReadLine();
             Console.WriteLine("OHHHHHHH NO WAYYYYYY IT'S REALY YOU " + name );
             Thread.Sleep(2000);
-            Console.WriteLine("Wait whats your fav topng on pizza again?" );
+            Console.WriteLine("Wait whats your fav toping on pizza again?" );
             pizzatop = Console.ReadLine();
             Console.WriteLine("NO WAY " + pizzatop + " IS MY FAV TOO");
             Thread.Sleep(1000);
-            Console.WriteLine("Hey man could you give me a random number for the diameter of a circle");
             Double.TryParse(Console.ReadLine(), out price);
-            double  = Math.PI  * Math.Pow(rad, 2);
-            Console.WriteLine("Wooza man the radious of that circle is pretty cool" + rad);
+            Console.WriteLine("Hey man could you give me a random number for the diameter of a circle");
+            Console.WriteLine(Double.TryParse(Console.ReadLine(), out di));
+            Console.WriteLine("Woowza man the radius of that circle is pretty cool, i didnt know that it is " + (di / 2));
         }
         
     }
